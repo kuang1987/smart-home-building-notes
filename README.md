@@ -1,0 +1,1 @@
+# smart-home-building-notes
