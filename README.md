@@ -90,6 +90,7 @@
 |小爱音箱pro| <ul><li>米家系智能中枢</li><li>语音助手</li><li>红外、射频遥控器</li></ul>|小爱音箱pro需加射频模块，[教程](https://github.com/kuang1987/smart-home-building-notes/blob/master/subs/%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1PRO%E5%B0%84%E9%A2%91%E6%A8%A1%E5%9D%97.md)|
 |Apple TV 4k|<ul><li>Homekit中枢</li></ul>|[ATV4k教程](https://github.com/kuang1987/apple-tv-tutorial) 这个之前已经入了，所以就直接用ATV做Homekit中枢。另外可以用HomePod或者iPad作为中枢。如果不需要HomeKit支持，可略过|
 |Aqara网关|Zigbee网关|也可购买小米多模网关，小米和Aqara的Zigbee设备大部分互相兼容。小米多模网关目前不支持Aqara B1(锂电池版窗帘电机)|
+|Yeelight网关|Wifi和蓝牙Mesh网关|主要用于将yeelight的蓝牙灯具接入homekit和米家app。小爱音箱pro也有蓝牙mesh的功能，但是只可以将yeelight的蓝牙灯具接入米家app|
 
 ### 客厅
 #### 灯光控制
@@ -109,4 +110,28 @@
 ![客厅原始灯光布局](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/living_room_origin.png)
 * 改造后如下  
 ![客厅改造后灯光布局](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/living_room_new.png)
-* 目前设置的智能场景
+
+#### 窗帘控制
+|项目|改造前|改造后|备注|
+|---|----------|-----------|---|
+|窗帘轨道|无|Aqara Zigbee开合帘专用轨道||
+|窗帘电机|无|Aqara Zigbee窗帘电机|根据邻居的建议，从弱电箱插座经过餐边柜顶部检修口沿客厅吊顶引了一路电|
+
+#### 影音控制
+|项目|改造前|改造后|备注|
+|---|----------|-----------|---|
+|投影仪|红外遥控器|米家APP控制||
+|投影幕布|433射频遥控器|米家APP控制|需通过小爱音箱射频模块学习|
+|回音壁|红外遥控器|米家APP控制||
+
+### 主卫
+原装修中主卫一共有两个筒灯，两条灯带，以及一个冷暖风机，使用一个四键开关控制。
+![四键开关](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/switch_4keys.png)
+
+（原谅我见识少，没见过如此高端的设计）
+
+主卫的改造方案是保持原开关不动，将筒灯和灯带更换为智能灯，并使用门窗传感器和人体传感器实现人来开灯，人走灯灭。
+
+|项目|改造前|改造后|备注|
+|---|----------|-----------|---|
+|四键开关|||不对开关做改造。需要保持|
