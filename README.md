@@ -93,16 +93,20 @@
 
 ### 客厅
 #### 灯光控制
-客厅的灯光改造采用的方案是结合开关改造和灯具改造。  
+* 客厅的灯光改造采用的方案是结合开关改造和灯具改造。  
 
 |项目|改造前|改造后|备注|
-|---|---|---|---|
+|---|----------|-----------|---|
 |双键开关|普通双键开关<br><ul><li>餐厅灯</li><li>入户射灯</li></ul>|Aqara单火双键开关<br><ul><li>餐厅灯</li><li>客厅主灯</li></ul>||
 |三键开关|普通三键开关<br><ul><li>客厅主灯</li><li>客厅灯带</li><li>客厅筒/射灯</li></ul>|Yeelight凌动开关<br><ul><li>客厅灯带</li><li>客厅筒/射灯</li><li>入户筒灯</li></ul>|这个开关其实可换可不换。如果使用原来的开关，则始终保持开的状态即可；Yeelight的凌动开关的好处是支持物理“开关”的情况下，保持灯具始终在线|
 |客厅灯带|普通灯带|Yeelight泛影灯带|泛影灯带不支持Homekit，后续需要“黑科技”支持|
+|入户射灯|西顿射灯|Yeelight M2色温筒灯||
+|客厅射灯|西顿射灯*7|<ul><li>Yeelight M2色温筒灯\*4</li><li>Yeelight M2色温射灯\*3</li></ul>|<ul><li>4个筒灯用于电视背景墙和沙发背景墙上方组成灯组</li><li>1个射灯放置于餐边柜上方</li><li>一个放置于钢琴上方</li><li>1个在北次卧和次卫中间的过道处</li></ul>|
+|餐边柜灯带|无|小米Zigbee智能插座|灯带通过智能插座直接接入弱电箱的插排|
 
 
-原始装修的灯光布局和开关控制示意图如下  
+* 原始装修的灯光布局和开关控制示意图如下  
 ![客厅原始灯光布局](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/living_room_origin.png)
-改造后如下  
+* 改造后如下  
 ![客厅改造后灯光布局](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/living_room_new.png)
+* 目前设置的智能场景
