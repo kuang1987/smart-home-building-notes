@@ -5,6 +5,7 @@
 * 选型
 * 方案设计对比
 * 方案实施
+* 智能场景
 * 花费
 * 下一步
 * FAQ
@@ -160,3 +161,24 @@
 |---|----------|-----------|---|
 |单键开关|普通单键开关|Aqara单火单键||
 |人体感应|无|Aqara人体传感器|橱柜吊柜下角|
+
+
+## 智能场景
+### 添加设备
+这里先大致介绍一下在米家APP中添加设备的流程。
+
+* 下载米家app，注册小米账号并登陆
+* 下载小爱音箱app，并绑定小米账号。然后小爱音箱将会作为一个设备出现在米家app中
+* 添加Aqara网关。在米家app中点击右上角按钮，搜索Aqara网关，点击后根据提示进行操作。
+* 添加米家和绿米支持的设备。在米家app中点击右上角按钮，搜索Aqara网关，点击后根据提示进行操作。
+* 下载yeelight app。绑定小米账号。
+* 在yeelight app中添加yeelight网关。点击右上角按钮，选择Mesh网关，根据提示进行操作。
+* 在yeelight app中添加yeelight设备。点击右上角按钮，选择Mesh网关，根据提示进行操作。
+
+![device_1](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/1.jpg)
+![device_2](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/2.jpg)
+![device_3](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/3.jpg)
+![device_4](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/4.jpg)
+![device_5](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/5.jpg)
+![device_6](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/6.jpg)
+![device_7](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/7.jpg)
