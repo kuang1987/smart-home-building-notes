@@ -87,8 +87,14 @@
 ### 全屋
 |产品|功能|备注|
 |---|---|---|
-|小爱音箱pro| <ul><li>米家系智能中枢</li><li>语音助手</li><li>红外、射频遥控器</li></ul>|小爱音箱pro需加射频模块|
+|小爱音箱pro| <ul><li>米家系智能中枢</li><li>语音助手</li><li>红外、射频遥控器</li></ul>|小爱音箱pro需加射频模块，[教程](https://github.com/kuang1987/smart-home-building-notes/blob/master/subs/%E5%B0%8F%E7%88%B1%E9%9F%B3%E7%AE%B1PRO%E5%B0%84%E9%A2%91%E6%A8%A1%E5%9D%97.md)|
 |Apple TV 4k|<ul><li>Homekit中枢</li></ul>|[ATV4k教程](https://github.com/kuang1987/apple-tv-tutorial) 这个之前已经入了，所以就直接用ATV做Homekit中枢。另外可以用HomePod或者iPad作为中枢。如果不需要HomeKit支持，可略过|
-|Aqara网关|Zigbee网关|也可购买小米多模网关，小米和Aqara的Zigbee设备大部分兼容。小米多模网关目前不支持Aqara B1(锂电池版窗帘电机)|
+|Aqara网关|Zigbee网关|也可购买小米多模网关，小米和Aqara的Zigbee设备大部分互相兼容。小米多模网关目前不支持Aqara B1(锂电池版窗帘电机)|
 
 ### 客厅
+#### 灯光控制
+客厅的灯光改造采用的方案是结合开关改造和灯具改造。
+
+原始装修的灯光布局和开关控制示意图如下
+
+改造后如下
