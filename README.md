@@ -95,7 +95,7 @@
 #### 灯光控制
 客厅的灯光改造采用的方案是结合开关改造和灯具改造。
 
-原始装修的灯光布局和开关控制示意图如下
+原始装修的灯光布局和开关控制示意图如下  
 ![客厅原始灯光布局](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/living_room_origin.png)
-改造后如下
+改造后如下  
 ![客厅改造后灯光布局](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/living_room_new.png)
