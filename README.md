@@ -141,6 +141,9 @@
 |开门感应|无|Aqara门窗传感器||
 |人体感应|无|Aqara人体传感器\*2|进门处和浴缸角上|
 
+土豪可选设备
+[Yeelight智能浴霸](https://item.taobao.com/item.htm?id=598800994949&ali_refid=a3_430582_1006:1164600006:N:OhaGUK3q6w3cdSmtmM63%2B72Ozm4nW%2FMy:2044d30204d6e9d09d6fd324655eb333&ali_trackid=1_2044d30204d6e9d09d6fd324655eb333&spm=a230r.1.14.1#detail)
+
 ### 次卫
 思路基本和主卫一致。  
 
@@ -153,6 +156,9 @@
 |湿区射灯|西顿射灯|Yeelight筒灯||
 |湿区开门感应|无|Aqara门窗传感器||
 |湿区人体感应|无|Aqara人体传感器\*2|进门出和淋浴房内。注意人体传感器无法透过玻璃等介质感应|
+
+土豪可选设备
+[Yeelight智能浴霸](https://item.taobao.com/item.htm?id=598800994949&ali_refid=a3_430582_1006:1164600006:N:OhaGUK3q6w3cdSmtmM63%2B72Ozm4nW%2FMy:2044d30204d6e9d09d6fd324655eb333&ali_trackid=1_2044d30204d6e9d09d6fd324655eb333&spm=a230r.1.14.1#detail)
 
 ### 厨房
 替换原有单键开关为智能开关，并结合人体传感器实现人来开灯，人走灯灭  
@@ -174,6 +180,10 @@
 * 下载yeelight app。绑定小米账号。
 * 在yeelight app中添加yeelight网关。点击右上角按钮，选择Mesh网关，根据提示进行操作。
 * 在yeelight app中添加yeelight设备。点击右上角按钮，选择Mesh网关，根据提示进行操作。
+* 在yeelight中添加的设备将自动出现在米家app中
+* 将设备重新命名，然后规划房间
+* 对于智能灯带和智能筒射灯，可以通过添加灯组实现统一控制。
+
 <p float="left">
 <img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/1.jpg" width="200" height="400" />
 <img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/2.jpg" width="200" height="400" />
@@ -185,3 +195,18 @@
 <img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/6.jpg" width="200" height="400" />
 <img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/7.jpg" width="200" height="400" />
 </p>
+
+### 添加场景
+米家app里添加智能场景也相对较为简单。玩法众多，这个全靠自己发挥想象力摸索。大致分为几类：
+* 手动触发。设置手动触发并给该场景命名后，可以使用该名字通过小爱同学进行控制。同时，ios中的米家app也支持给智能场景增加siri的shortcut，设置后可以使用siri进行控制。
+* 传感器触发。温湿度传感器，人体传感器，门窗传感器等都可以作为触发设备。比如实现人来开灯，人走灯灭等。
+* 定时触发。
+
+### 我目前的一些场景
+|场景|类型|动作|
+|---|---|---|
+|会客模式|手动触发|客厅筒射灯及灯带全部开启并调至最大亮度、白光色温|
+|餐厅模式|手动触发|开启餐边柜灯带、餐厅射灯、餐厅灯，关闭其它灯|
+|睡觉模式|手动触发|开启入户射灯，关闭其他所有灯|
+|电影模式|手动触发|降下幕布、打开投影仪和音箱、关闭客厅窗帘、将客厅灯调至最暗、色温黄光|
+|主卫灯光|传感器触发|开门亮灯，人体传感器感应到移动亮灯，人体传感器2分钟内没有感应到移动灭灯|
