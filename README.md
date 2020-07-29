@@ -174,11 +174,14 @@
 * 下载yeelight app。绑定小米账号。
 * 在yeelight app中添加yeelight网关。点击右上角按钮，选择Mesh网关，根据提示进行操作。
 * 在yeelight app中添加yeelight设备。点击右上角按钮，选择Mesh网关，根据提示进行操作。
-
-![device_1](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/1.jpg)
-![device_2](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/2.jpg)
-![device_3](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/3.jpg)
-![device_4](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/4.jpg)
-![device_5](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/5.jpg)
-![device_6](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/6.jpg)
-![device_7](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/7.jpg)
+<p float="left">
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/1.jpg" width="200" height="400" />
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/2.jpg" width="200" height="400" />
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/3.jpg" width="200" height="400" />
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/4.jpg" width="200" height="400" />
+</p>
+<p float="left">
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/5.jpg" width="200" height="400" />
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/6.jpg" width="200" height="400" />
+<img src="https://github.com/kuang1987/smart-home-building-notes/blob/master/images/devices/7.jpg" width="200" height="400" />
+</p>
