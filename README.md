@@ -127,7 +127,7 @@
 
 ### 主卫
 原装修中主卫一共有两个筒灯，两条灯带，以及一个冷暖风机，使用一个四键开关控制。
-![四键开关](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/switch_4keys.png)
+![四键开关](https://github.com/kuang1987/smart-home-building-notes/blob/master/images/restroom/switch.jpg)
 
 （原谅我见识少，没见过如此高端的设计）
 
